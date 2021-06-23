@@ -7,18 +7,14 @@ public class AvgExample {
 		// 합계, 평균
 		// 학생이름
 		int kor = 85;
-	    int math = 88;
-	    int eng = 83;
-		
-	    String name = "홍길동";
-	    int sum = kor + math + eng; 
-	    double avg = sum / 3.0;
-	    
-	    System.out.println( name + "의 점수합계는 " + sum + " 평균은" + avg + " 입니다.");
-	    
-		
+		int math = 88;
+		int eng = 83;
 
-		
+		String name = "홍길동";
+		int sum = kor + math + eng;
+		double avg = sum / 3.0;
+
+		System.out.println(name + "의 점수합계는 " + sum + " 평균은" + avg + " 입니다.");
 
 	}
 
