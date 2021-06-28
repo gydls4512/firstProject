@@ -10,11 +10,7 @@ public class ForExample {
 			if (i % 2 == 1) {
 				sum = sum + i;
 				System.out.println("현재 sum :" + sum);
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+				Thread.sleep(1000);
 
 			} else if (i == 5) {
 
