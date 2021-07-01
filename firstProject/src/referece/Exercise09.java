@@ -15,10 +15,15 @@ public class Exercise09 {
 			System.out.println("---------------------------------------------");
 			System.out.println("선택> ");
 
-			int selectNo = Scanner.nextInt();
+			int selectNo = scanner.nextInt();
 
 			if (selectNo == 1) {
-				//
+				int[] scores = { 85, 95, 92 };
+				int scores[0] = 85;
+				int scores[1] = 95;
+				int scores[2] = 92;
+				
+				
 			} else if (selectNo == 2) {
 				//
 			} else if (selectNo == 3) {
