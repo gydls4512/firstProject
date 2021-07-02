@@ -33,8 +33,16 @@ public class Exercise09 {
 			} else if (selectNo == 5) {
 				run = false;
 			}
+public static string scanString(String arg) { //입력 메세지 출력 후 문자 입력값을 변환
+	System.out.println(arg);
+	String val = scn.nextLine();
+	return val;
+	
+}
 
+public static Gender scan
 		}
 		System.out.println("프로그램 종료");
 	}
+	
 }
